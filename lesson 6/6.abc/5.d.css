@@ -1,0 +1,15 @@
+p {
+  font-family: arial;
+  text-align: center;
+}
+.title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.info {
+  margin-bottom: 20px;
+}
+.learn-more {
+  color: rgb(61, 61, 255);
+}

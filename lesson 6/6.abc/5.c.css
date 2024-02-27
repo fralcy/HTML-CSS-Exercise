@@ -1,0 +1,24 @@
+p{
+  font-family: arial;
+}
+.title{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.level{
+  font-size: large;
+  color: gray;
+  margin-top: 0px;
+}
+.info{
+  width: 270px;
+}
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}

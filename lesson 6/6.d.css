@@ -1,0 +1,17 @@
+p {
+  text-align: center;
+  font-family: montserrat;
+}
+.title {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.info {
+  font-size: large;
+  margin-top: 10px;
+}
+.order {
+  cursor: pointer;
+  text-decoration: underline;
+}

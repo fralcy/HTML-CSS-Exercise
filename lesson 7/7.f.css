@@ -1,0 +1,30 @@
+p {
+  font-size: 14px;
+  color: black(0.87);
+}
+input {
+  width: 300px;
+  padding: auto;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid gray;
+  color: gray;
+}
+input:focus {
+  border-color: black;
+  outline: none;
+  color: black;
+}
+button {
+  border-radius: 4px;
+  width: 320px;
+  padding: 12px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}

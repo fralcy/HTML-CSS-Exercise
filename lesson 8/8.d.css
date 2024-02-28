@@ -1,0 +1,28 @@
+input {
+  width: 100px;
+  border-radius: 6px;
+  padding: 14px;
+  font-size: 14px;
+  border: 1px solid #e1e1e1;
+  color: #757575;
+  margin: 4px 2px;
+}
+input:focus {
+  outline: none;
+  color: black;
+}
+.email {
+  width: 238px;
+  display: block;
+}
+button {
+  width: 270px;
+  border: none;
+  background-color: #3975ea;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 0px;
+  border-radius: 8px;
+  margin: 10px 0px 0px 0px;
+}

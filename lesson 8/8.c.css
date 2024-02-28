@@ -1,0 +1,21 @@
+img {
+  width: 200px;
+  object-fit: contain;
+  display: block;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+input {
+  width: 550px;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px lightgray;
+  color: gray;
+}
+input:focus {
+  outline: none;
+  color: black;
+}

@@ -1,0 +1,50 @@
+.suggestions {
+  width: fit-content;
+  padding: 2px 0px;
+}
+.suggestion {
+  width: fit-content;
+  box-shadow: 0px 0px 6px gray;
+  display: inline-block;
+  margin: 0px 4px;
+}
+.avatar{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.mutual-friend {
+  margin: 10px 0px 6px 20px;
+}
+.mutual-friend img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mutual-friend p {
+  color: gray;
+  margin-top: 4px 0 4px 0px;
+  display: inline-block;
+}
+p {
+  font-family: arial;
+  margin: 10px;
+}
+.name{
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+button {
+  background-color: #3975ea;
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 4px;
+  margin: 4px 10px 8px 20px;
+  cursor: pointer;
+}

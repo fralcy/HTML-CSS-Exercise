@@ -1,0 +1,31 @@
+div {
+  text-align: center;
+}
+img {
+  width: 200px;
+  object-fit: contain;
+  margin: 10px;
+}
+input {
+  width: 450px;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px lightgray;
+  color: gray;
+  margin: 16px;
+}
+input:focus {
+  outline: none;
+  color: black;
+}
+button {
+  border: none;
+  background-color: #f6f5f5;
+  color: #383838;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0px 6px;
+}

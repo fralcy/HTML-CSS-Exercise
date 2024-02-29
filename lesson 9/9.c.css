@@ -1,0 +1,19 @@
+div {
+  width: 300px;
+  height: auto;
+  border: 1px solid #e0e0e0;
+  padding: 6px 12px;
+}
+p {
+  font-size: 16px;
+  font-family: Arial;
+  color: black;
+}
+button {
+  font-size: 16px;
+  padding: auto 8px;
+  color: black;
+  background-color: #e0e0e0;
+  border: 1px solid #a8a8a8;
+  cursor: pointer;
+}

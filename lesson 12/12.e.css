@@ -1,0 +1,31 @@
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  margin: 4px;
+  align-items: center;
+}
+p {
+  font-family: arial;
+  font-size: large;
+  margin: 0px;
+}
+.name {
+  color: black;
+}
+.count {
+  color: white;
+  border: none;
+  background-color: #416cec;
+  border-radius: 14px;
+  padding: 2px 12px;
+}

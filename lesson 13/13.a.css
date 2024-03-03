@@ -1,0 +1,18 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+.pink {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.blue {
+  background-color: lightblue;
+  width: 200px;
+}
+p {
+  background-color: black;
+  color: white;
+}

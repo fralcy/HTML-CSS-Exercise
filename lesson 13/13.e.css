@@ -1,0 +1,40 @@
+.inboxes {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 4px;
+  padding: 4px 10px;
+  width: fit-content;
+  row-gap: 10px;
+}
+p {
+  font-family: arial;
+  color: gray;
+  margin: 2px;
+  display: block;
+}
+.inbox {
+  display: flex;
+  align-items: center;
+}
+.info {
+  margin: 2px;
+}
+.name-time {
+  display: flex;
+  justify-content: space-between;
+}
+.name, .title {
+  color: black;
+  font-weight: bold;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
+.content {
+  margin-right: 10px;
+}

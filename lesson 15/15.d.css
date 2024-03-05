@@ -1,0 +1,30 @@
+.ad {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+}
+button {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+.timer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 4px 6px;
+  font-family: arial;
+}

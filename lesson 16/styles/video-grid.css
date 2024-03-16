@@ -1,0 +1,76 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  margin: 70px 10px 0px 100px;
+  z-index: 5;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+}
+.thumbnail {
+  width: 100%;
+}
+.video-info {
+  display: flex;
+  position: relative;
+}
+.video-info img {
+  margin: 10px;
+}
+.video-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0px 0px 0px;
+  text-decoration: none;
+  color: black;
+  line-height: 16px;
+  display: block;
+}
+.video-author {
+  font-size: 12px;
+  color: #606060;
+  margin: 10px 0px 3px 0px;
+}
+.video-stats {
+  font-size: 12px;
+  color: #606060;
+  margin: 3px 0 0 0;
+}
+.profile {
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.large-profile {
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profile:hover + .author-tooltip {
+  visibility: visible;
+}
+.author-tooltip {
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 5px lightgray;
+  visibility: hidden;
+  background-color: white;
+}
+.channel-info {
+  white-space: nowrap;
+  padding: 16px 10px 10px 0px;
+}
+.channel-name{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+}
+.subcribers {
+  margin: 10px 0px 10px 0px;
+  font-size: 14px;
+  color: #606060;
+}
